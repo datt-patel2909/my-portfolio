@@ -12,7 +12,7 @@ const skills = [
 const projects = [
   {
     title: "Todo List",
-    images: ["/src/assets/projects/todo/todo.png"],
+    images: ["/assets/projects/todo/todo.png"],
     description:
       "A task management application supporting CRUD operations with a clean backend structure.",
     tech: ["Node.js", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
@@ -22,9 +22,9 @@ const projects = [
   {
     title: "Job Tracker",
     images: [
-      "/src/assets/projects/job-tracker/job1.png",
-      "/src/assets/projects/job-tracker/job2.png",
-      "/src/assets/projects/job-tracker/job3.png",
+      "/assets/projects/job-tracker/job1.png",
+      "/assets/projects/job-tracker/job2.png",
+      "/assets/projects/job-tracker/job3.png",
     ],
     description:
       "A job application tracking system to manage applications, statuses, and deadlines efficiently.",
@@ -35,10 +35,9 @@ const projects = [
   {
     title: "E-commerce NexKart",
     images: [
-      "/src/assets/projects/E-commerce nexkart/nexkart1.png",
-      "/src/assets/projects/E-commerce nexkart/nexkart2.png",
-      "/src/assets/projects/E-commerce nexkart/nexkart3.png",
-      "/src/assets/projects/E-commerce nexkart/nexkart4.png",
+      "/assets/projects/E-commerce nexkart/nexkart1.png",
+      "/assets/projects/E-commerce nexkart/nexkart3.png",
+      "/assets/projects/E-commerce nexkart/nexkart4.png",
     ],
     description:
       "An e-commerce platform featuring product listings, cart management, and order workflows.",
@@ -161,7 +160,7 @@ export default function App() {
 
       {/* FLOATING RESUME */}
       <motion.a
-        href="/Datt_Patel_Resume.pdf"
+        href="/Datt Patel.pdf"
         download
         whileHover={{ scale: 1.08 }}
         whileTap={{ scale: 0.95 }}
